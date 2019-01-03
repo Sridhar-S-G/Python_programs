@@ -1,6 +1,11 @@
-'''Print floyd triangle as given below
+'''
+Problem statement:
+
+Print floyd triangle in the pattern as given below
+
 input:
 3
+
 output:
 0
 01
