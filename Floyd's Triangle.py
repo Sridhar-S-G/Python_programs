@@ -7,9 +7,9 @@ input:
 3
 
 output:
-0
-01
-012 
+1
+12
+123 
 '''
 
 n=int(input())
