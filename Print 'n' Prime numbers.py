@@ -1,3 +1,10 @@
+'''
+Problem statement
+
+Write a program to print n prime number'''
+
+#Solution 
+
 n=int(input()) #specify the n value till you want the prime number to be printed
 flag=0
 for i in range(2,n+1):
