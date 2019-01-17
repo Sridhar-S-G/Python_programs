@@ -1,5 +1,5 @@
 ''' Problem Statement:
-Check the Alphabet
+
 The program must accept a string value S and an integer X as the input. The program much print yes if X th position letter in
 the alphabetical order is present at least once in S. Else the program must print no as the output.
 Note: The string S must contain only lowercase alphabets.
