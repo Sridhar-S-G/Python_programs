@@ -1,6 +1,9 @@
 s=input()
 year=s[0:4]
-day=s[6:8]
+st=['01','31','21']
+nd=['02','22']
+rd=['03','23']
+th=['04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20','24','30']
 def mon(m):
     if m=='01':
         return('January')
@@ -26,5 +29,18 @@ def mon(m):
         return('November')
     elif m=='12':
         return('December') 
+def da(d):
+    if d in st:
+        return('st')
+    elif d in nd:
+        return('nd')
+    elif d in rd:
+        return('rd')
+    elif d in th:
+        return('th')
 month=mon(s[4:6])
-print(year,month,day)
+sub=da(s[6:8])
+day=s[6:8]
+if day[0]=='0':
+    day=day[1]
+print("%s, %s%s of %s"%(year,day,sub,month))
