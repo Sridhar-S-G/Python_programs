@@ -1,4 +1,4 @@
-s=input()
+s=input() //Provide input in format 20160302 (i.e) YYYYMMDD
 year=s[0:4]
 st=['01','31','21']
 nd=['02','22']
