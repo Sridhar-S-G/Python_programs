@@ -44,3 +44,4 @@ day=s[6:8]
 if day[0]=='0':
     day=day[1]
 print("%s, %s%s of %s"%(year,day,sub,month))
+#output will be in the format "2016, 2nd of March"
