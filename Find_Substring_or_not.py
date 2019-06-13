@@ -9,7 +9,7 @@
    Yes the word Sri word is a substring Sridhar'''
    
    
-Solution Code:
+#Solution Code:
 s=input('Enter a String: ')
 word=input('Enter a word to check it is a substring: ')
 if (s.find(word))!=-1:
